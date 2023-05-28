@@ -18,15 +18,17 @@ import ParabolLogo from '../images/logos/parabol.svg';
 import TastyCloudLogo from '../images/logos/tastycloud.png';
 import YearProgressLogo from '../images/logos/yearprogress.svg';
 
-export const Name = 'Bartosz Jarocki';
+export const Name = 'Antioch';
 
 export const About = (
   <>
     {`I used to consider myself a software engineer, but the reality is that I simply enjoy creating things. If you'd like to get in touch,`}{' '}
-    <ExternalLink href="mailto:bartosz@jarocki.me">send me an email.</ExternalLink>
+    <ExternalLink href="mailto:google@gmail.com">send me an email.</ExternalLink>
   </>
 );
-export const AboutExtended = `I live in Wrocław, Poland, having grown up in the small town of Góra in the western part of the country. I have a bachelor's degree in Control Systems Engineering and Robotics from the Wrocław University of Technology. I like programming, books, plants, mountain biking, whisky, and traveling the world with my wife, Kasia. The cosmos fascinates me, and I take great delight in gazing at the stars.`;
+export const AboutExtended = `Hi. I have lived a life in Sodom and Gomorrah. My spirit is thirsty to begin a journey from Antioch. I write this to provoke positive change and thoughts that bring us closer to truth. It is with strong resistance I to take this step. With a heavy heart I invite you to look at the truth. “ “Then said Jesus to those Jews which believed on him, If ye continue in my word, then are ye my disciples indeed; and ye shall know the truth, and the truth shall make you free.” John‬ ‭8‬:‭31‬-‭32‬ ‭
+Thank Lord Chris Jesus for sacrificing your life even when you did not need to and we were undeserving. In the world, there is only one truth. “Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live: and whosoever liveth and believeth in me shall never die. Believest thou this?”
+‭‭John‬ ‭11‬:‭25‬-‭26‬ ‭If we act according to them word of God written in spirit during the decadent age, we can shake the world with love.`;
 
 export type Project = {
   title: string;
@@ -162,40 +164,20 @@ export const MyPastProjects: Project[] = [
 ];
 
 export const SocialMedia = [
-  { name: 'Twitter', link: 'https://twitter.com/BartoszJarocki', icon: TwitterIcon },
-  { name: 'Instagram', link: 'https://www.instagram.com/bartosz.jarocki/', icon: InstagramIcon },
-  { name: 'Github', link: 'https://github.com/BartoszJarocki', icon: GitHubIcon },
+  { name: 'Twitter', link: 'https://twitter.com/', icon: TwitterIcon },
+  { name: 'Instagram', link: 'https://www.instagram.com/', icon: InstagramIcon },
+  { name: 'Github', link: 'https://github.com/', icon: GitHubIcon },
 ];
 
 export const Work = [
   {
-    company: 'Parabol',
-    title: 'Full Stack Developer',
+    company: 'Your Company',  
+    title: 'CEO',
     logo: ParabolLogo,
     start: '2021',
     end: 'Present',
   } as const,
-  {
-    company: 'Clevertech',
-    title: 'Lead Android Developer → Full Stack Developer',
-    logo: ClevertechLogo,
-    start: '2015',
-    end: '2021',
-  },
-  {
-    company: 'Jojo Mobile',
-    title: 'Android Developer → Lead Android Developer',
-    logo: JojoMobileLogo,
-    start: '2012',
-    end: '2015',
-  },
-  {
-    company: 'Nokia Siemens Networks',
-    title: 'C/C++ Developer',
-    logo: NSNLogo,
-    start: '2010',
-    end: '2012',
-  },
+ 
 ];
 
 export const CompaniesLinks = [
@@ -203,22 +185,7 @@ export const CompaniesLinks = [
     name: 'VisionMedia',
     link: 'https://www.visionmedia.com/',
   },
-  {
-    name: 'DKMS',
-    link: 'https://www.dkms.org/en',
-  },
-  {
-    name: 'AAA',
-    link: 'https://www.aaa.com/',
-  },
-  {
-    name: 'PolskaPress',
-    link: 'https://polskapress.pl/pl',
-  },
-  {
-    name: 'Canal Digital',
-    link: 'https://www.canaldigital.no/',
-  },
+  
 ];
 
 export const Books = [

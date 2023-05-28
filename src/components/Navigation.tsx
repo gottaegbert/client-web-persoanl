@@ -16,22 +16,22 @@ export const NavigationItems = [
     name: 'Notes',
     href: '/notes',
   },
-  {
-    name: 'Creating',
-    href: '/creating',
-  },
-  {
-    name: 'Uses',
-    href: '/uses',
-  },
+  // {
+  //   name: 'Creating',
+  //   href: '/creating',
+  // },
+  // {
+  //   name: 'Uses',
+  //   href: '/uses',
+  // },
   {
     name: 'About',
     href: '/about',
   },
-  {
-    name: 'RSS',
-    href: '/rss.xml',
-  },
+  // {
+  //   name: 'RSS',
+  //   href: '/rss.xml',
+  // },
 ];
 
 export const NavLink = ({ href, children }: React.PropsWithChildren<{ href: string }>) => {

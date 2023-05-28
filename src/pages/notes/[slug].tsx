@@ -55,10 +55,10 @@ export default function Note({
             className="group block text-center text-xl font-semibold md:text-3xl no-underline mt-32"
             href={url}
           >
-            <h4 className="m-5 flex cursor-pointer flex-col place-items-center duration-200 ease-in-out group-hover:text-blue-400 group-hover:fill-blue-400 fill-white sm:m-20">
+            {/* <h4 className="m-5 flex cursor-pointer flex-col place-items-center duration-200 ease-in-out group-hover:text-blue-400 group-hover:fill-blue-400 fill-white sm:m-20">
               <TwitterIcon className="m-6 h-10 w-10 transform transition-transform group-hover:-rotate-12" />
               Click here to share this article with your friends on Twitter if you liked it.
-            </h4>
+            </h4> */}
           </a>
         </div>
       </NoteLayout>

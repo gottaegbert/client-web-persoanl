@@ -5,14 +5,14 @@ import { NextSeo } from 'next-seo';
 import { Container } from '../components/Container';
 import { Newsletter } from '../components/Newsletter';
 import { PageTitle } from '../components/PageTitle';
-import { Photos } from '../components/Photos';
+// import { Photos } from '../components/Photos';
 import { Resume } from '../components/Resume';
 import { SocialLink } from '../components/SocialLink';
 import { NotePreview } from '../components/notes/NotePreview';
 import { About, Name, SocialMedia } from '../data/lifeApi';
 import { Note, notesApi } from '../lib/notesApi';
 
-const seoTitle = 'Bartosz Jarocki';
+const seoTitle = 'Antioch';
 const seoDescription =
   'A passionate software engineer with an eye for details based in Wrocław, Poland.';
 
@@ -51,7 +51,7 @@ export default function Home({ latestNotes }: Props) {
           </div>
         </div>
       </Container>
-      <Photos />
+      {/* <Photos /> */}
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">

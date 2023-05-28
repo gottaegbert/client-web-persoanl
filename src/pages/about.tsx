@@ -3,7 +3,7 @@ import { NextSeo } from 'next-seo';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 
-import AvatarImage from '../../public/assets/blog/authors/bartosz.jpeg';
+import AvatarImage from '../../public/assets/blog/authors/avatar.jpeg';
 import { Container } from '../components/Container';
 import { ExternalLink } from '../components/ExternalLink';
 import { PageTitle } from '../components/PageTitle';
@@ -58,10 +58,10 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="lg:order-first lg:row-span-2">
-            <PageTitle>Hi, I&apos;m Bartosz Jarocki.</PageTitle>
+            <PageTitle>Hi, I&apos;m JJ</PageTitle>
             <div className="mt-6 text-base">{AboutExtended}</div>
 
-            <Section>
+            {/* <Section>
               <Section.Title as="h2">Work</Section.Title>
               <Section.Content>
                 I&apos;m a software developer with over 10 years of experience. I started as a C/C++
@@ -115,8 +115,8 @@ export default function AboutMe() {
                   ))}
                 </ul>
               </Section.Content>
-            </Section>
-            <Section>
+            </Section> */}
+            {/* <Section>
               <Section.Title as="h2">Podcasts I listen to</Section.Title>
               <Section.Content>
                 <ul className="mt-1 list-disc list-inside">
@@ -162,7 +162,7 @@ export default function AboutMe() {
                 )).reduce((prev, curr) => [prev, ', ', curr])}
                 .
               </Section.Content>
-            </Section>
+            </Section> */}
             {randomQuote && (
               <Section>
                 <Section.Title as="h2">Quote worth thinking about</Section.Title>
@@ -186,11 +186,11 @@ export default function AboutMe() {
                 </SocialLink>
               ))}
               <SocialLink
-                href="mailto:bartosz@jarocki.me"
+                href="mailto:google@gmail.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                bartosz@jarocki.me
+                google@gmail.com
               </SocialLink>
             </ul>
           </div>
