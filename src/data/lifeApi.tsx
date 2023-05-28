@@ -22,7 +22,7 @@ export const Name = 'Antioch';
 
 export const About = (
   <>
-    {`I used to consider myself a software engineer, but the reality is that I simply enjoy creating things. If you'd like to get in touch,`}{' '}
+    {`Where I share my thoughts and life. If you'd like to get in touch,`}{' '}
     <ExternalLink href="mailto:google@gmail.com">send me an email.</ExternalLink>
   </>
 );
