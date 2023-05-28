@@ -5,7 +5,7 @@ import { NextSeo } from 'next-seo';
 import { Container } from '../components/Container';
 import { Newsletter } from '../components/Newsletter';
 import { PageTitle } from '../components/PageTitle';
-import { ThreeElements } from '@react-three/fiber';
+// import { ThreeElements } from '@react-three/fiber';
 // import { Photos } from '../components/Photos';
 import { Resume } from '../components/Resume';
 import { SocialLink } from '../components/SocialLink';
@@ -53,7 +53,7 @@ export default function Home({ latestNotes }: Props) {
         </div>
       </Container>
       {/* <Photos /> */}
-      {/* <threeElements/> */}
+      <ThreeElements/>
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
