@@ -1,7 +1,7 @@
 const { spacing, fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  purge: ['./src/**/*.{tsx,jsx,ts,js}'],
+  content: ['./src/**/*.{tsx,jsx,ts,js}'],
   plugins: [require('@tailwindcss/typography')],
   variants: {
     typography: ['dark'],
@@ -58,7 +58,6 @@ module.exports = {
           },
         },
         dark: {
-
           css: {
             color: theme('colors.gray.200'),
             a: {
