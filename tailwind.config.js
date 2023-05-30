@@ -30,7 +30,7 @@ module.exports = {
       colors: {
         primary: '#73e067',
         'primary-light': '#fd92ba',
-        'primary-dark': '#8d0237',
+        'primary-dark': '#8d023733',
       },
       typography: (theme) => ({
         DEFAULT: {

@@ -959,6 +959,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pmndrs/cannon-worker-api@npm:^2.3.2":
+  version: 2.3.2
+  resolution: "@pmndrs/cannon-worker-api@npm:2.3.2"
+  peerDependencies:
+    three: ">=0.139"
+  checksum: 1ec01114bc1384793eb0b8d815239d583260289695d32e14e294f028f87321a46dbc4fcb9cbbafff122e589d9cc91637212953785cf2078978927e4cfa68ba93
+  languageName: node
+  linkType: hard
+
 "@react-spring/animated@npm:~9.6.1":
   version: 9.6.1
   resolution: "@react-spring/animated@npm:9.6.1"
@@ -1095,6 +1104,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-three/cannon@npm:^6.5.2":
+  version: 6.5.2
+  resolution: "@react-three/cannon@npm:6.5.2"
+  dependencies:
+    "@pmndrs/cannon-worker-api": ^2.3.2
+    cannon-es: ^0.20.0
+    cannon-es-debugger: ^1.0.0
+  peerDependencies:
+    "@react-three/fiber": ">=8"
+    react: ">=18"
+    three: ">=0.139"
+  checksum: a27d9b94b644307de45074dbd69183c7cecc7ebeaeab72633f0270238676f7d73d4d344cf497d65edb64b8b87635016dcc462797ff0f76a0e922c37c37150523
+  languageName: node
+  linkType: hard
+
 "@react-three/drei@npm:9.57.0":
   version: 9.57.0
   resolution: "@react-three/drei@npm:9.57.0"
@@ -1163,6 +1187,23 @@ __metadata:
     react-native:
       optional: true
   checksum: c456bf10f83f217188029a5ab70ca0a149d99c1023dafa89436674ee7ce3aa8c7f80b0677c03a8f5e39f682bf5ab944e483109b845dc94f73d69720916c5491b
+  languageName: node
+  linkType: hard
+
+"@react-three/postprocessing@npm:2.14.6":
+  version: 2.14.6
+  resolution: "@react-three/postprocessing@npm:2.14.6"
+  dependencies:
+    maath: ^0.5.3
+    n8ao: ^1.4.2
+    postprocessing: ^6.31.0
+    screen-space-reflections: 2.5.0
+    three-stdlib: ^2.23.4
+  peerDependencies:
+    "@react-three/fiber": ">=8.0"
+    react: ">=18.0"
+    three: ">= 0.138.0"
+  checksum: 44d89cbe4d6280bcd24fcdc18ea04a1239750f2b44f691d9861bb7f62f2ac0da4f20e128a1e05fdb3544cfd579bd49068a821abcca381156da6ee63c8c83cde7
   languageName: node
   linkType: hard
 
@@ -2011,8 +2052,10 @@ __metadata:
     "@next/font": ^13.1.1
     "@notionhq/client": ^2.2.3
     "@react-spring/three": 9.7.1
+    "@react-three/cannon": ^6.5.2
     "@react-three/drei": 9.57.0
     "@react-three/fiber": 8.11.9
+    "@react-three/postprocessing": 2.14.6
     "@tailwindcss/typography": ^0.5.7
     "@trivago/prettier-plugin-sort-imports": ^4.0.0
     "@types/jest": ^28.1.0
@@ -2041,6 +2084,7 @@ __metadata:
     postcss: ^8.4.14
     postcss-focus-visible: ^6.0.4
     postcss-preset-env: ^7.7.0
+    postprocessing: 6.31.0
     prettier: ^2.6.2
     prettier-plugin-tailwindcss: ^0.1.11
     prismjs: ^1.29.0
@@ -2251,6 +2295,27 @@ __metadata:
   version: 1.0.30001444
   resolution: "caniuse-lite@npm:1.0.30001444"
   checksum: 3d6436e2eea8ee77fdca906f481fd5513eec836d3c5ef395da96872f8e67e0db4b898430a588745752e43fabf0503dc351ff1ab710717c33451bdc8f09a7b5cf
+  languageName: node
+  linkType: hard
+
+"cannon-es-debugger@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "cannon-es-debugger@npm:1.0.0"
+  peerDependencies:
+    cannon-es: 0.x
+    three: 0.x
+    typescript: ">=3.8"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 4d50b1250db46e5f7f005980ba38bcb5b21682c8851bef7e6077a1c20c7490ed05dcd286ca36f47cb7c5f9de47ff77b633c18c49ef6b1b44297985a9f7b5f58b
+  languageName: node
+  linkType: hard
+
+"cannon-es@npm:^0.20.0":
+  version: 0.20.0
+  resolution: "cannon-es@npm:0.20.0"
+  checksum: a11c2a51d8f4bf314fdbe671dd03e025513e3ab98621d3260c06f2c2a11922c67bc670f98e866a21919d966ba9b19aade5b7c3f9cf507a2ed7499c85eb8934bb
   languageName: node
   linkType: hard
 
@@ -5377,7 +5442,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"maath@npm:^0.5.2":
+"maath@npm:^0.5.2, maath@npm:^0.5.3":
   version: 0.5.3
   resolution: "maath@npm:0.5.3"
   peerDependencies:
@@ -5715,6 +5780,16 @@ __metadata:
   version: 0.0.8
   resolution: "mute-stream@npm:0.0.8"
   checksum: ff48d251fc3f827e5b1206cda0ffdaec885e56057ee86a3155e1951bc940fd5f33531774b1cc8414d7668c10a8907f863f6561875ee6e8768931a62121a531a1
+  languageName: node
+  linkType: hard
+
+"n8ao@npm:^1.4.2":
+  version: 1.4.4
+  resolution: "n8ao@npm:1.4.4"
+  peerDependencies:
+    postprocessing: ">=6.30.0"
+    three: ">=0.137"
+  checksum: 74454907423ea3d11c6ae2ddf22da164d62ac5537a2b79f1dddc784d86804c0cb46422ddcffe3f337e01d663d485ec081eb0dcf46e2efa49521c60f5cf4b660b
   languageName: node
   linkType: hard
 
@@ -6860,6 +6935,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postprocessing@npm:6.31.0, postprocessing@npm:^6.31.0":
+  version: 6.31.0
+  resolution: "postprocessing@npm:6.31.0"
+  peerDependencies:
+    three: ">= 0.138.0 < 0.153.0"
+  checksum: e663c8f2456fa8a6ed1b8094d14459923d4a0ac458b1b095738271671c74fb5905f3affdc931e30528070818915b88b513b54b865dd2c1a5a3fa9c837cb5ef92
+  languageName: node
+  linkType: hard
+
 "potpack@npm:^1.0.1":
   version: 1.0.2
   resolution: "potpack@npm:1.0.2"
@@ -7519,6 +7603,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"screen-space-reflections@npm:2.5.0":
+  version: 2.5.0
+  resolution: "screen-space-reflections@npm:2.5.0"
+  peerDependencies:
+    postprocessing: ">=6.28.0"
+    three: ">=0.141.0"
+  checksum: bbe5f157fd7e4fd6c34d88d43032ae472b51c00bf6b3de9114bd85c1fe2974ac3fd59f00d0a0fc8f8b10f10b338fa5613ced195a62d3d949293a1d98eeee5738
+  languageName: node
+  linkType: hard
+
 "semver-diff@npm:^2.0.0":
   version: 2.1.0
   resolution: "semver-diff@npm:2.1.0"
@@ -8153,7 +8247,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.21.8":
+"three-stdlib@npm:^2.21.8, three-stdlib@npm:^2.23.4":
   version: 2.23.4
   resolution: "three-stdlib@npm:2.23.4"
   dependencies:
