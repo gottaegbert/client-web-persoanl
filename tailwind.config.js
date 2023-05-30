@@ -9,6 +9,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
       fontFamily: {
         sans: ['var(--font-inter)', ...fontFamily.sans],
       },
@@ -30,7 +33,7 @@ module.exports = {
       colors: {
         primary: '#73e067',
         'primary-light': '#fd92ba',
-        'primary-dark': '#8d023733',
+        'primary-dark': '#8d0237',
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -55,6 +58,7 @@ module.exports = {
           },
         },
         dark: {
+
           css: {
             color: theme('colors.gray.200'),
             a: {

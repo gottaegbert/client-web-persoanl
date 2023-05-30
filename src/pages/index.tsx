@@ -62,7 +62,9 @@ export default function Home({ latestNotes }: Props) {
               <NotePreview key={blogPost.slug} note={blogPost} dense />
               ))}
           </div>
-              <Bananas />
+          <div className="bg-gradient-radial from-transparent to-primary">
+            <Bananas />
+          </div>
           <div className="lg:ml-auto space-y-10 lg:pl-16 xl:pl-24">
             {false && <Newsletter />}
             {/* <Resume /> */}
